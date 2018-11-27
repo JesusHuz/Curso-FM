@@ -1,0 +1,16 @@
+.caja{
+    background: #ffaa5a;
+    width: 200px;
+    height: 200px;
+    transform: translate(200px) scale(1.5,1.5) rotate(10deg) skew(10deg,0deg);
+    /*skew(20deg,0deg);*/
+    /*rotate(20deg); rota los elementos*/
+    /*scale(2,2); aumenta el tamaño el anto y ancho*/
+    /*translate(200px,50px); translateX(300px); o con y*/
+}
+/*cosas para hacer con transform:
+-trasladar elementos para animaciones con tiempo
+-escalar elementos
+-rotar elementos
+-sesgar elementps
+*/

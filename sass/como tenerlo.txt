@@ -1,0 +1,9 @@
+bre consola ruby
+(discoduro): c: o d:
+despues pegas la direccion de donde esta el estilo
+despues
+sass estilos.sass:estilos.css
+//agrega css primera atnes de sas
+
+sass --watch estilos.sass:estilos.css
+//para que no tengas que estar compilando siempre que hagas cambios

@@ -1,0 +1,25 @@
+@mixin colores($fondo,$articulo)
+    body 
+        background: $fondo
+    .articulo
+        background: $articulo
+
+@include colores(#ff8000,#fff)
+//----------------otro ejemplo-----
+@mixin border-redondeado($pixeles)
+    border-radius: $pixeles
+    -moz-border-radius: $pixeles
+    -webkit-border-radius: $pixeles
+    -ms-border-radius: $pixeles
+    -o-border-radius: $pixeles
+
+article 
+    @include border-redondeado(5px)
+
+footer 
+    @include border-redondeado(15px)
+//----------------otro ejemplo utilizable en la pagina de sass estan mas funciones mas usados-----
+//hay funciones ya pre establecidas por sass como esta
+
+article
+    background: rgba(#ff8000, .5)

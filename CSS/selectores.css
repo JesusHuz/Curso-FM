@@ -1,0 +1,22 @@
+/*todos los selectores de todo*/
+/** {
+    color: brown;
+}*/
+ h1, h2, h3, h4, h5, h6 {
+     color: blueviolet;
+ }
+ div p{
+    font-size: 20px;
+    color: burlywood;
+ }
+ div p a{
+    color:red;
+ }
+ .grande {
+     font-size: 28px;
+ }
+ /*para id*/
+ #rojo {
+    font-size: 28px;
+    color:red;
+ }

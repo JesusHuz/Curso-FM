@@ -1,0 +1,19 @@
+a {
+    font-size: 20px;
+    text-decoration: none; /*sin subrayado, underline por defecto y line-through que tacha el texto*/    
+}
+a:hover { /*mause ensima, al pasar mause o cualquiere elemento que use hover*/
+    background: #f9a03f;
+    color: #fff; 
+}
+a:link {/*estilo de enlaces no visitados*/
+    text-decoration: none;
+    color: red;
+}
+a:visited { /*enlaces visitados*/
+    color: #cecece;
+}
+a:active { /*al hacer click*/
+    text-decoration: underline;
+    background: green;
+}

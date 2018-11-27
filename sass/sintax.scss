@@ -1,0 +1,19 @@
+// es la nueva pero usamos {} y ;
+body {
+    background: #f2f2f2;
+}
+
+.articulo {
+    background: #fff;
+    .titulo {
+        color: #000;
+    }
+    .autor {
+        color:blueviolet;
+    }
+    p{
+        a{
+            text-decoration: none;
+        }
+    }
+}

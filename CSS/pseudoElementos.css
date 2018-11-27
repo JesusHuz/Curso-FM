@@ -1,0 +1,38 @@
+p::first-letter { /*::todos lso elementos*/
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p::first-line{
+    background: #cf5c36;
+    line-height: 40px;
+}
+
+*::selection {
+    background: #f90a3f;
+    color: aliceblue;
+}
+.caja {
+    background: #f90a3f;
+    height: 150px;
+    width: 150px;
+}
+.caja::before{/*despues de neustra caja, se usa en cosas avanzadas*/
+    content: 'Contenido antes de la caja';
+    display: block;
+    background: #3a3a3a;
+    color: aliceblue;
+    position: relative;
+    left: 50px;
+}
+
+.caja::after{
+    content: 'Contenido';/*es hobligatoria esta propiedad*/
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: black;
+    position: relative;
+    left: 200px;
+    color: #fff;
+}

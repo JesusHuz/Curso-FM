@@ -1,0 +1,11 @@
+.caja {
+    width: 200px;  
+    height: 200px;
+    /*background: navy;*/
+    /*background: rgb(215, 38, 61);*/
+    /*background: #32938e;*/
+    /*background: rgb(84%, 15%, 24% )*/
+    background: rgba(215, 38, 61, 0.25)/* con transparencia  y el 4 valor va del 0 al 1*/
+}
+/*17 palabras clave como black
+si son 6 caracteres repetidos se pueden poder asi 000 ejemplo con 0*/

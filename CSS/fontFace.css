@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "RobotoSlab";
+    src: url('fonts/RobotoSlab-Regular.ttf');
+}
+/*y se pega todas las versiones de la feunte igual que esta pero cambiando los valores*/
+body{
+    font-family: "RobotoSlab";
+}

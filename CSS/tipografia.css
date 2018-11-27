@@ -1,0 +1,22 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold; /*ancho de fuente*/
+    color: blueviolet;
+    text-align: center; /*ajusta la pocision del texto*/
+    text-decoration: underline;
+}
+p {
+    text-align: justify; /*ajustar el margen*/
+    letter-spacing: 5px; /*espacios entre letras*/
+    line-height: 15px; /*espacio entre las linneas*/
+}
+h2 {
+    color: #cece34;
+    text-transform: uppercase; /*todas mayusculas o minusnucoasl o solo la primera letra de la s palabras*/
+}
+
