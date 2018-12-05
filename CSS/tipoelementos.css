@@ -1,0 +1,11 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial;
+    color: #fff;
+}
+h1, p, div {
+    background: #ccc;
+}
+a {
+    color: #fff;
+}
