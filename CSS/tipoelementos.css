@@ -1,11 +1,32 @@
 body {
     background: #f2f2f2;
     font-family: Arial;
-    color: #fff;
 }
 h1, p, div {
     background: #ccc;
+    padding: 10px;
+    width: 500px;
 }
 a {
     color: #fff;
+    background: #000;
+    display: inline-block;
+    /*
+    linea
+    no puede tener 
+    alot
+    ancho
+    paddin
+    */
 }
+/*
+inline
+a,span,ing,b,i,small,cite,code
+em,strong,br,script,button
+input,label select,textarea
+
+block
+div,article,section,header
+footer, aside, table ,p video
+ul,ol,h1,h2,h3,h4,h5,h6
+*/
