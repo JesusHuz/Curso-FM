@@ -1,5 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /*color: #fff;*/
+    font-family: Arial;
+    line-height: 22px;
+}
 .caja {
     background: #0353a4;
     width: 200px;
-    height: 200px;
+    /*height: 200px;*/
+    margin: 20px;
+    padding: 20px;/*tiene 4 valores*/
+    /*margin: 20px; ahsta con 4 valores tambien margin-top botton left rigth*/
+    border: 5px solid orangered;
+}
+p {
+    background: #eee5e9;
 }
