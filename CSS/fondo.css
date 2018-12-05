@@ -1,10 +1,26 @@
 body {
     background: url('img/wallpaper.jpg');
+
+    background: url('img/folk-pattern-black.png');
+    background-repeat: repeat;
+
+    
     /*
 
     background-repeat:repeat-y;
     background-repeat:repeat-x;
-    background-repeat:repeat-x;
+    background-repeat:no-repeat;
+    background-size:500px; % o dos valores   / 100% toda pantalla, cover; avarca el ancho del contenedor padre/contain es el ancho y alto
+    background-attachment: scroLL; prederteminado
+    background-attachment: fixed; se mueve con la pantalla
+    background-position:50px 200px; posicion en pantalla/ :center center; centrado/ 
+
+    background:url() no-repeat fixed center center; un ejemplo de usar todo en un oslo comando
+
+    se le puede poner fondo a un div 
+
+    si el backgrpund tiene dos valores la imagen () y #000 un color pondra ese color si no ocnsigue la iamgen o no alcanza el tamaño de la imagen a cubrir el div
+
 
     */
 }
