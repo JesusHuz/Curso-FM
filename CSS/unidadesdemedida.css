@@ -1,0 +1,16 @@
+body {
+    font-size: 30px;
+}
+p {
+    font-size: 1em;
+    /*
+    unidades de medida
+    relaticas
+    px,em,rem,%
+    em reativa al atañao de fuente tenga su elementos padre
+    rem es el tamaño del body
+
+    absolutas
+    in,cn,mm
+    */
+}
