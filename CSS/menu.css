@@ -8,7 +8,7 @@ body {
     background: #092327;
     width: 90%;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 20px auto;/*este es el que hace que se centren y se vea mejor*/
 }
 .menu li {
     display: inline-block;
