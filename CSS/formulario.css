@@ -1,6 +1,0 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; /*hace que la caja no se agrande con el margen y paddin 
-    sino agrre desde dentro estas medidas y mantenga su tamaño general*/
-}
