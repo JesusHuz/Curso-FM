@@ -7,7 +7,7 @@ body {
     background: #f2f2f2;
     font-family: Arial;
 }
-.cajapadre {
+.cajaPadre {
     background: #2e294a;
     width: 700px;
     overflow: hidden;/*segunda forma del error del padre caja*/
@@ -19,6 +19,7 @@ body {
     height: 200px;
     background: #0e6ba8;
     margin: 20px;
+    
     
 }
 .uno {
