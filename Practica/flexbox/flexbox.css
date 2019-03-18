@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    width: 80%;
+    max-width: 700px;
+    height: 500px;
+    background: #212d40;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/*nowrap=para que no los comprima sino pase los siguientes blokes}
+     a la linea de abajo y no seguido hasta la derecha en linea
+     flex-flow: wrap;/*(es la unio de las 2 anteriores lineas de codigo)
+     justify-content: space-between;center;posiciona los elementos en donde se quiere al final o al comienzo como float
+    align-items: center; juega con la posicion que esten respecto a otros
+    align-content: flex-start; alinea tambien */
+    align-content: center;
+     
+    
+}
+.caja{
+    width: 200px;
+    height: 100px;
+    background: #f79256;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+    order: 1;/*para dar el ordenb que tendra acomodandolas entre si quien va primera que otra */
+    flex-grow:1;/*hara que agarre todo el espacio disponible y que tanto agarrara respecto q los otros elementos con flexgrow*/
+    flex-shrink: 0;/*esto ara que un elementos no pueda reducir su tamaño*/
+    flex-basis: 200px; /*especificar el balor inicial del tamaño*/
+    flex:1 1 auto;/*convina todo*/
+    align-self: flex-start;/*organiza el elemento para que este al comienzo  o final o lo que sea pero solo un elemento*/
+    /*baselien los centro con todo y el streth avarca tanto todo lo que pueda cen ancho y lato*/
+}
