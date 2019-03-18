@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     background: #21295c;
-    transition: all 1s ease;/*generalmente se usa eñ .3s,  */
+    transition: all 1s ease;/*generalmente se usa eñ .3s,  (all a todos pero puedes especifica como brackgroud en ves de all)*/
     transition-delay: 2s;/*tiempo para hacer la transicion*/
     /*
     velocidad de curva
