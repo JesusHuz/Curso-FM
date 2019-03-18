@@ -9,7 +9,8 @@ body{
     background: #4a465b;
 }
 .contenedor {
-    width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -38,7 +39,7 @@ header nav ul li a:hover{
     color: #fff;
 }
 .main {
-    width: 700px;
+    width: 70%;
     background: #fff;
     float: left;
 }
@@ -49,8 +50,6 @@ header nav ul li a:hover{
     width: 100%;
     vertical-align: top;
 }
-
-
 .main .posts {
     padding: 40px;
 }
@@ -63,7 +62,7 @@ header nav ul li a:hover{
     line-height: 27px;
 }
 aside{
-    width: 300px;
+    width: 30%;
     background: #161f26;
     float: left;
 
@@ -75,8 +74,7 @@ aside .widget {
 aside .widget .titulo{
     color: #ff8000;
     border-bottom: 1px solid #ff8000;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px; 
 }
 aside .widget ul{
     list-style: none;
@@ -103,4 +101,15 @@ footer {
     color: #fff;
     padding: 15px 0;
     text-align: center;
+}
+@media screen and (max-width:800px) {
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
 }
