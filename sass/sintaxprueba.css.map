@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,UAAU,EAAC,OAAO;CAKkB;;AANxC,AAEI,SAFK,CAEL,OAAO,CAAC;EACJ,KAAK,EAAE,IAAI;CAAG;;AAHtB,AAKQ,SALC,CAIL,CAAC,CACG,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CAAG",
+    "sources": [
+        "sintaxprueba.sass"
+    ],
+    "names": [],
+    "file": "sintaxprueba.css"
+}
