@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Condicional</title>
+</head>
+<body>
+    <script>
+        var pais = 'españa';
+
+        if(pais == 'mexico'){
+            document.write('Eres mexicano');
+        } else if(pais == 'españa'){
+            document.write('Eres expañol');
+        } else {
+            document.write('No sabemos de donde eres');
+        }
+
+        switch (pais) {
+            case 'mexico':
+                document.write('Eres mexicano');
+                break;
+            case 'españa':
+                document.write('Eres mexiespañolcano');
+                break;
+            case 'venezuela':
+                document.write('Eres venezuela');
+                break;
+        
+            default:
+                document.write('No sabemos de donde eres');
+                break;
+        }
+        
+    </script>
+    
+</body>
+</html>
