@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Metodos y propiedades para cadenas de texto</title>
+</head>
+<body>
+    <script>
+        // dice cuantas caracteres tiene la cadena
+        var nombre = 'jesus huz';
+        var numerocaracteres = nombre.length;
+        console.log(nombre + ' tiene ' + numerocaracteres + ' caracteres');
+        
+
+        //extrae una cadena de la cadena por posiciones inicial y final
+        var segundonombre = nombre.substring(6,9);
+        console.log(segundonombre);
+    
+
+        // extraer una cadena por posiccion y cuantos caracertees quiere cortar
+        var segundonombre = nombre.substr(6,2);
+        console.log(segundonombre);
+
+
+        //metodo que sustituye una parte de la cadea
+        var numeronombre = nombre.replace('huz','villamizar');
+        console.log(numeronombre);
+
+
+        // de minisculas a mayuscula y viceversa
+        nombre = nombre.toUpperCase();
+        console.log(nombre);
+
+
+        console.log(nombre.toLowerCase());
+
+        //indexof podemos ponerle un valor  y busca la primer elementos que encuentra y nos da la hubicacion
+        var nombre = 'jesus huz';
+        var posicion = nombre.indexOf('s');
+        console.log(posicion);
+        //y esta tambien lastindexof encontra la letra o caracter desde el final empezando
+        
+    </script>
+</body>
+</html>
