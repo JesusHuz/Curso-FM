@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="contened">
+    <div class="contenedor">
         <form action="" class="formulario" id="formulario" name="formulario">
             <div class="contenedor-inputs">
                 <input type="text" name="nombre" placeholder="Nombre">
@@ -17,10 +17,10 @@
 
                 <div class="sexo">
                     <input type="radio" name="sexo" id="hombre" value="hombre">
-                    <label for="hombre">Hombre</label>
+                    <label class="label-radio hombre" for="hombre">Hombre</label>
 
                     <input type="radio" name="sexo" id="mujer" value="mujer">
-                    <label for="mujer">Mujer</label>
+                    <label class="label-radio mujer" for="mujer">Mujer</label>
                 </div>
 
                 <div class="terminos">
@@ -28,11 +28,12 @@
                     <label for="terminos">Acepto Terminos y Condiciones</label>
                 </div>
 
-                <ul class="error">
-                    <li>Error1</li>
-                    <li>Error2</li>
+                <ul class="error" id="error">
+
                 </ul>
             </div>
+
+            <input type="submit" class="btn" value="Registrar">
         </form>
     </div>
     <script src="formulario.js"></script>
