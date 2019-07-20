@@ -5,9 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulario</title>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
- 
+    <div class="contened">
+        <form action="" class="formulario" id="formulario" name="formulario">
+            <div class="contenedor-inputs">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="email" name="correo" placeholder="Correo">
+
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label for="hombre">Hombre</label>
+
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label for="mujer">Mujer</label>
+                </div>
+
+                <div class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto Terminos y Condiciones</label>
+                </div>
+
+                <ul class="error">
+                    <li>Error1</li>
+                    <li>Error2</li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <script src="formulario.js"></script>
 </body>
 </html>
