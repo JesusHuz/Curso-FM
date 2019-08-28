@@ -16,10 +16,26 @@
     </audio>
 
         <button id="play">Reproducir</button>
-        <button id="pausar">Pausa</button>
+        <button id="pause">Pausar</button>
+
+        <input type="range" value="1" min="0" max="1" step="0.1" id="volumen">
 
         <script>
-            var 
+            var video = document.getElementById('video'),
+                btnPlay = document.getElementById('play'),
+                btnPause = document.getElementById('pause');
+
+                btnPlay.addEventListener('click',function(){
+                    video.play();
+                });
+
+                btnPause.addEventListener('click',function(){
+                    video.pause();
+                });
+
+                volumen.addEventListener('change',function(){
+                    video.volume = volumen.value;
+                });
         </script>
 </body>
 </html>

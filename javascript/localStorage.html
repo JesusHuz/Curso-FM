@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LocalStorage</title>
+</head>
+<body>
+    <script>
+
+        //guardar le nombre
+        if(typeof(Storage) !== "undefined"){
+            localStorage.setItem('nombre','Jesus Huz');
+            
+        }else {
+            document.write('no soporta');
+        }
+
+
+        //imprime el nombre sin tener la parte de arriba de declarar le nombre ya lo guardo
+
+        document.write(localStorage.nombre);
+
+        //remover le nombre
+
+        //localStorage.removerItem('nombre');
+
+        //session storage se cierra si cierra la pestaña
+
+        //sessionStorage.nombre = 'Jose';
+        
+    </script>
+</body>
+</html>
